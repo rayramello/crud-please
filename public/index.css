@@ -1,0 +1,147 @@
+/* Importando Bootstrap para estilização moderna */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css&#39;");
+
+/* Estilização do corpo da página /
+/ Define a fonte padrão da página /
+/ Define a cor de fundo da página para um tom claro /
+/ Remove as margens externas para um layout mais limpo /
+/ Remove os preenchimentos internos para evitar espaçamentos desnecessários */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centralizando o formulário dentro da página /
+/ Define a largura máxima do contêiner para manter um tamanho adequado /
+/ Centraliza o formulário na tela automaticamente /
+/ Adiciona espaço interno ao contêiner para melhor visualização /
+/ Define um fundo branco para destacar o formulário /
+/ Adiciona uma sombra suave para um efeito de elevação /
+/ Arredonda as bordas do contêiner para um design moderno */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Estilização do título principal /
+/ Centraliza o texto do título /
+/ Adiciona um espaçamento abaixo do título para separação visual */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Ajustando o botão para ocupar toda a largura /
+/ Faz com que o botão ocupe toda a largura disponível */
+button {
+  width: 20%;
+  padding: 5px;
+  margin: 10px 3px;
+}
+
+button[type="submit"] {
+  background-color: rgb(9, 255, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid #708ba6;
+}
+button[type="submit"]:hover {
+  cursor: pointer;
+  transition: all 0.5 ease; /* Define a duração e a suavidade da transição */
+  transform: scale(1.1); /* Leve aumento no tamanho do botão */
+}
+b .fa-icon {
+  font-size: 17px;
+}
+
+.text-center,
+.mb-3 {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+  outline: none;
+}
+.list-group {
+  padding-top: 10px;
+  border: 1px solid #708ba6;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.list-group-item {
+  background-color: #ccd4db;
+  color: #000000;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  padding-left: 8px;
+  width: 460px;
+  height: 40px;
+  border: 1px solid #5a5959;
+}
+.list-group-div {
+  display: flex;
+  border-left: 1px solid #5a5959;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+  height: 40px;
+  margin: 10px;
+  width: 120px;
+}
+
+.list-group-div button {
+  border: 1px solid #708ba6;
+  width: 50px;
+  height: 30px;
+  background-color: #df4545;
+color: #fff;
+}
+
+.list-group-div button:hover{
+  transition: all 2.s ease;
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.list-group-div button.btn-outline-warning{
+  background-color: #fbff00;
+}
+
+/* Ajuste da lista de usuários /
+/ Adiciona espaçamento acima da lista para melhor separação visual /
+/ Remove os marcadores padrão da lista para um visual mais limpo /
+/ Remove preenchimentos internos para alinhar corretamente os itens */
+#listaUsuarios {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+/* Estilização de cada item da lista de usuários /
+/ Define um fundo claro para os itens da lista, mantendo um contraste leve /
+/ Adiciona espaçamento interno para melhor leitura /
+/ Adiciona espaçamento entre os itens para organização /
+/ Arredonda as bordas dos itens para manter consistência com o design do formulário */
+#listaUsuarios li {
+  background: #708ba6;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
