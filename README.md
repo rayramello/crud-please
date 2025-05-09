@@ -91,13 +91,7 @@ O sistema consiste nas seguintes etapas principais:
 </html>
 O que foi feito:
 Adicionei comentários em cada parte do HTML explicando o que ela faz.
-
-Deixei os comentários bem didáticos, como um guia de leitura para quem está aprendendo.
-
-Se quiser, posso fazer a mesma coisa com:
- O arquivo script.js (JavaScript)
- O arquivo style.css (CSS)
- Um README.md com descrição do projeto
+Deixei os comentários para facilitar o entendimento, como um guia.
  
 arquivo script.js:
 // Função para salvar o nome do usuário no banco de dados
@@ -407,8 +401,4 @@ input {
   transform: scale(1.1);  /* Aumenta levemente o botão */
   cursor: pointer;  /* Muda o cursor para "pointer" */
 }
-Cores Suaves: A paleta de cores foi escolhida para criar um ambiente mais relaxante e amigável, com tons suaves de verde, rosa e branco. O main-color (verde suave) é utilizado como cor de fundo principal e para destacar botões e interações.
-Layout Responsivo: O código foi feito para ter um layout flexível, com o uso do flexbox para alinhar elementos no centro da página (como formulários e mensagens).
-Estilo de Botões: Os botões de submit e os botões de ação (editar, deletar) possuem transições suaves e um efeito de aumento de escala quando o usuário passa o mouse, tornando a interação mais agradável.
-Inputs e Cartões: Os inputs têm bordas arredondadas, fundo suave e uma cor de borda sutil. O container de conteúdo tem bordas arredondadas e uma sombra suave, conferindo um visual mais moderno e clean.
-Listagem de Usuários: Os itens da lista possuem um fundo suave com bordas arredondadas, e os botões de ação (editar, deletar) possuem cores suaves e transições suaves para tornar a interface mais intuitiva.
+
